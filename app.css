@@ -7,3 +7,9 @@ body {
     font-size: 1.5rem;
     font-weight: 100;
 }
+
+#potLeaf {
+    width:10%;
+    height:25%;
+}
+
