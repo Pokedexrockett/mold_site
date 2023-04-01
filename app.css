@@ -10,6 +10,20 @@ body {
 
 #potLeaf {
     width:10%;
-    height:25%;
+    height:20%;
 }
 
+.blurb {
+    background-color: aquamarine;
+}
+
+.blurb h2 {
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
