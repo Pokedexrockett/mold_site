@@ -8,8 +8,35 @@ body {
     font-weight: 100;
 }
 
+#mainNavbar .nav-link {
+    color:white;
+}
+
+#mainNavbar .nav-link:hover {
+    color:aquamarine;
+}
+
+#mainNavbar .navbar-brand {
+    color: aqua;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: black;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#headingGroup p{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
 #potLeaf {
-    width:10%;
+    width:12%;
     height:20%;
 }
 
@@ -26,4 +53,21 @@ body {
     font-weight: 100;
     font-size: 1.25rem;
     line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled {
+    background: antiquewhite;
+    transition: background 1s;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
 }
